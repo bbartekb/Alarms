@@ -13,7 +13,7 @@ public class AdapterXML {
     public AdapterXML() throws JAXBException, FileNotFoundException {
         JAXBContext context = JAXBContext.newInstance(AlarmsXML.class);
         Unmarshaller um = context.createUnmarshaller();
-        AlarmsXML alarms = (AlarmsXML) um.unmarshal(new FileReader(Main.xmlPath));
+        AlarmsXML alarms = (AlarmsXML) um.unmarshal(new FileReader(Main.xmlFile));
 
         List<List<String>> listXML = new ArrayList<>();
         for (AlarmXML alarm : alarms.getAlarms()) {
