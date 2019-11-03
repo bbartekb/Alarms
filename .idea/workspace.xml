@@ -2,20 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f81a3c1b-8c03-464c-b326-a7fb5661e94c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/AdapterXML.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/AlarmAttribute.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/AlarmBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/AlarmXML.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/AlarmsXML.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/CheckUpdateCSV.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/CheckUpdateXML.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/CsvAlarmsChannel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/CsvFileObserver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ReaderCSV.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/XmlAlarmsChannel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/XmlFileObserver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/UpdateXML.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Dialog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Dialog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/UpdateCSV.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/UpdateCSV.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Dialog.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Dialog.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/UpdateCSV.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/UpdateCSV.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -45,7 +37,9 @@
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../java/proba_gita" />
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$USER_HOME$/eclipse-workspace/Samochody" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -99,5 +93,16 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Dialog.java</url>
+          <line>61</line>
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

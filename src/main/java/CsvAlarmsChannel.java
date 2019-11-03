@@ -1,3 +1,4 @@
+import javax.swing.*;
 import java.beans.PropertyChangeEvent;
 import java.beans.PropertyChangeListener;
 import java.io.IOException;
@@ -25,14 +26,12 @@ public class CsvAlarmsChannel implements PropertyChangeListener {
                     .notificationIdentifier(e.get(0))
                     .acknowledgeState(e.get(1))
                     .acknowledgeUserID(e.get(2))
-                    .alertCount(Integer.getInteger(e.get(3)))
+                    .alertCount(e.get(3))
                     .moTTInfo(e.get(4))
                     .eventTime(e.get(5))
                     .build());
         }
-        for(AlarmBuilder a: listOfAlarms) {
-            System.out.println("działa dla CSV: " +a.getNotificationIdentifier());
-        }
+        Main.window.setParameters(listOfAlarms);
     }
 
 }

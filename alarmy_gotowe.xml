@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ExportData>
+  <DataRow>
+    <Record name="Notification Identifier" value="wwwaww700:32865"/>
+    <Record name="Acknowledge State" value="T"/>
+    <Record name="Acknowledge User ID" value="bbuczek"/>
+    <Record name="Alert Count" value="2"/>
+    <Record name="MO TT Info" value=""/>
+    <Record name="Event Time" value="2019-10-23 08:14:59"/>
+  </DataRow>
+  <DataRow>
+    <Record name="Notification Identifier" value="Huawei4G_ha:10.211.144.144:4700:114331176"/>
+    <Record name="Acknowledge State" value="T"/>
+    <Record name="Acknowledge User ID" value="ossadmin"/>
+    <Record name="Alert Count" value="2360"/>
+    <Record name="MO TT Info" value="43/Open"/>
+    <Record name="Event Time" value="2019-10-23 07:45:52"/>
+  </DataRow>
+  <DataRow>
+    <Record name="Notification Identifier" value="Ericsson2G_ha:29689826"/>
+    <Record name="Acknowledge State" value="F"/>
+    <Record name="Acknowledge User ID" value=""/>
+    <Record name="Alert Count" value="107162"/>
+    <Record name="MO TT Info" value="19001/Open"/>
+    <Record name="Event Time" value="2019-10-23 09:12:28"/>
+  </DataRow>
+  <DataRow>
+    <Record name="Notification Identifier" value="Ericsson2G_ha:29690011"/>
+    <Record name="Acknowledge State" value="F"/>
+    <Record name="Acknowledge User ID" value=""/>
+    <Record name="Alert Count" value="5"/>
+    <Record name="MO TT Info" value=""/>
+    <Record name="Event Time" value="2019-10-23 09:16:24"/>
+  </DataRow>
+  <DataRow>
+    <Record name="Notification Identifier" value="Ericsson2G_ha:29663853"/>
+    <Record name="Acknowledge State" value="F"/>
+    <Record name="Acknowledge User ID" value=""/>
+    <Record name="Alert Count" value="1"/>
+    <Record name="MO TT Info" value=""/>
+    <Record name="Event Time" value="2019-10-23 09:14:17"/>
+  </DataRow>
+  <DataRow>
+    <Record name="Notification Identifier" value="Ericsson2G_ha:29421513"/>
+    <Record name="Acknowledge State" value="F"/>
+    <Record name="Acknowledge User ID" value=""/>
+    <Record name="Alert Count" value="1"/>
+    <Record name="MO TT Info" value=""/>
+    <Record name="Event Time" value="2019-10-23 09:25:58"/>
+  </DataRow>
+  <DataRow>
+    <Record name="Notification Identifier" value="Ericsson2G_ha:29567242"/>
+    <Record name="Acknowledge State" value="F"/>
+    <Record name="Acknowledge User ID" value=""/>
+    <Record name="Alert Count" value="1"/>
+    <Record name="MO TT Info" value=""/>
+    <Record name="Event Time" value="2019-10-23 09:24:02"/>
+  </DataRow>
+  <DataRow>
+    <Record name="Notification Identifier" value="Ericsson2G_ha:29686949"/>
+    <Record name="Acknowledge State" value="F"/>
+    <Record name="Acknowledge User ID" value=""/>
+    <Record name="Alert Count" value="1"/>
+    <Record name="MO TT Info" value=""/>
+    <Record name="Event Time" value="2019-10-23 09:17:56"/>
+  </DataRow>
+  <DataRow>
+    <Record name="Notification Identifier" value="Ericsson2G_ha:29689767"/>
+    <Record name="Acknowledge State" value="F"/>
+    <Record name="Acknowledge User ID" value=""/>
+    <Record name="Alert Count" value="5"/>
+    <Record name="MO TT Info" value=""/>
+    <Record name="Event Time" value="2019-10-23 09:11:31"/>
+  </DataRow>
+  <DataRow>
+    <Record name="Notification Identifier" value="Huawei4G_ha:10.211.144.144:4700:114479822"/>
+    <Record name="Acknowledge State" value="F"/>
+    <Record name="Acknowledge User ID" value=""/>
+    <Record name="Alert Count" value="3"/>
+    <Record name="MO TT Info" value=""/>
+    <Record name="Event Time" value="2019-10-23 08:15:30"/>
+  </DataRow>
+  <DataRow>
+    <Record name="Notification Identifier" value="Huawei4G_ha:10.211.144.144:4700:114480623"/>
+    <Record name="Acknowledge State" value="F"/>
+    <Record name="Acknowledge User ID" value=""/>
+    <Record name="Alert Count" value="3"/>
+    <Record name="MO TT Info" value=""/>
+    <Record name="Event Time" value="2019-10-23 08:30:10"/>
+  </DataRow>
+  <DataRow>
+    <Record name="Notification Identifier" value="Huawei4G_ha:10.211.144.144:4700:114480089"/>
+    <Record name="Acknowledge State" value="F"/>
+    <Record name="Acknowledge User ID" value=""/>
+    <Record name="Alert Count" value="3"/>
+    <Record name="MO TT Info" value=""/>
+    <Record name="Event Time" value="2019-10-23 08:19:10"/>
+  </DataRow>
+  <DataRow>
+    <Record name="Notification Identifier" value="Huawei4G_ha:10.211.144.144:4700:114467416"/>
+    <Record name="Acknowledge State" value="F"/>
+    <Record name="Acknowledge User ID" value=""/>
+    <Record name="Alert Count" value="1"/>
+    <Record name="MO TT Info" value=""/>
+    <Record name="Event Time" value="2019-10-23 08:29:31"/>
+  </DataRow>
+  <DataRow>
+    <Record name="Notification Identifier" value="Huawei4G_ha:10.211.144.144:4700:114480112"/>
+    <Record name="Acknowledge State" value="F"/>
+    <Record name="Acknowledge User ID" value=""/>
+    <Record name="Alert Count" value="4"/>
+    <Record name="MO TT Info" value=""/>
+    <Record name="Event Time" value="2019-10-23 08:19:25"/>
+  </DataRow>
+  <DataRow>
+    <Record name="Notification Identifier" value="Huawei4G_ha:10.211.144.144:4700:114478540"/>
+    <Record name="Acknowledge State" value="F"/>
+    <Record name="Acknowledge User ID" value=""/>
+    <Record name="Alert Count" value="3"/>
+    <Record name="MO TT Info" value=""/>
+    <Record name="Event Time" value="2019-10-23 07:54:26"/>
+  </DataRow>
+  <DataRow>
+    <Record name="Notification Identifier" value="Huawei4G_ha:10.211.144.144:4700:113465658"/>
+    <Record name="Acknowledge State" value="F"/>
+    <Record name="Acknowledge User ID" value=""/>
+    <Record name="Alert Count" value="2"/>
+    <Record name="MO TT Info" value=""/>
+    <Record name="Event Time" value="2019-10-23 08:11:13"/>
+  </DataRow>
+  <DataRow>
+    <Record name="Notification Identifier" value="Huawei4G_ha:10.211.144.144:4700:114476069"/>
+    <Record name="Acknowledge State" value="F"/>
+    <Record name="Acknowledge User ID" value=""/>
+    <Record name="Alert Count" value="4901"/>
+    <Record name="MO TT Info" value="21690143/Open"/>
+    <Record name="Event Time" value="2019-10-23 08:08:47"/>
+  </DataRow>
+  <DataRow>
+    <Record name="Notification Identifier" value="Huawei4G_ha:10.211.144.144:4700:114479592"/>
+    <Record name="Acknowledge State" value="F"/>
+    <Record name="Acknowledge User ID" value=""/>
+    <Record name="Alert Count" value="4"/>
+    <Record name="MO TT Info" value=""/>
+    <Record name="Event Time" value="2019-10-23 08:10:37"/>
+  </DataRow>
+  <DataRow>
+    <Record name="Notification Identifier" value="Huawei4G_ha:10.211.144.144:4700:114452548"/>
+    <Record name="Acknowledge State" value="F"/>
+    <Record name="Acknowledge User ID" value=""/>
+    <Record name="Alert Count" value="3305"/>
+    <Record name="MO TT Info" value="21586419/Open"/>
+    <Record name="Event Time" value="2019-10-23 08:08:17"/>
+  </DataRow>
+</ExportData>

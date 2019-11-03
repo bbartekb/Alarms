@@ -10,7 +10,7 @@ public class ReaderCSV {
     List<List<String>> records = new ArrayList<>();
 
     public ReaderCSV() throws IOException {
-        BufferedReader csvRead = new BufferedReader(new FileReader(Main.csvPath));
+        BufferedReader csvRead = new BufferedReader(new FileReader(Main.csvFile));
         String row;
         while ((row = csvRead.readLine()) != null) {
             String[] data = row.split(";");

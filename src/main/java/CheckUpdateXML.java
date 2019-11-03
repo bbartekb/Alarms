@@ -15,7 +15,7 @@ public class CheckUpdateXML extends Thread {
         observable.addPropertyChangeListener(observer);
         observable.setDate(this.lastUpdate);
 
-        for(int i = 0; i <= 40; ++i) {
+        for(int i = 0; i <= 60; ++i) {
             if (this.lastUpdate != this.file.lastModified()) {
                 System.out.println("Zmiana");
                 observable.setDate(this.file.lastModified());

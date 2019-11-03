@@ -37,8 +37,8 @@ public class AlarmBuilder {
             return this;
         }
 
-        public Builder alertCount(Integer alertCount) {
-            this.alertCount = alertCount;
+        public Builder alertCount(String alertCount) {
+            this.alertCount = Integer.valueOf(alertCount);
             return this;
         }
 
