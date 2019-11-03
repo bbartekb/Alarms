@@ -2,25 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f81a3c1b-8c03-464c-b326-a7fb5661e94c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Dialog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/UpdateCSV.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Window.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/UpdateXML.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/AdapterXML.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/AdapterXML.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/AlarmBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/AlarmBuilder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/CheckUpdateCSV.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/CheckUpdateCSV.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/CheckUpdateXML.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/CheckUpdateXML.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/CsvAlarmsChannel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/CsvAlarmsChannel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ReaderCSV.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ReaderCSV.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/XmlAlarmsChannel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/XmlAlarmsChannel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/AdapterXML.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/AdapterXML.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/AlarmBuilder$Builder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/AlarmBuilder$Builder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/CsvAlarmsChannel.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/CsvAlarmsChannel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ReaderCSV.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ReaderCSV.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/XmlAlarmsChannel.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/XmlAlarmsChannel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Dialog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Dialog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/UpdateCSV.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/UpdateCSV.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Dialog.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Dialog.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/UpdateCSV.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/UpdateCSV.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -50,6 +37,7 @@
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$USER_HOME$/eclipse-workspace/Samochody" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -110,28 +98,8 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/CsvAlarmsChannel.java</url>
-          <line>33</line>
-          <option name="timeStamp" value="25" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/Window.java</url>
-          <line>100</line>
-          <option name="timeStamp" value="26" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/Window.java</url>
-          <line>101</line>
-          <option name="timeStamp" value="27" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/Dialog.java</url>
-          <line>50</line>
-          <option name="timeStamp" value="28" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/Dialog.java</url>
-          <line>56</line>
+          <line>61</line>
           <option name="timeStamp" value="29" />
         </line-breakpoint>
       </breakpoints>

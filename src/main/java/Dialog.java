@@ -55,13 +55,8 @@ public class Dialog extends JFrame implements ActionListener {
                 CheckUpdateCSV csvThread = new CheckUpdateCSV(Main.csvFile,csvUpdate);
                 csvThread.start();
 
-
-                try {
-                    UpdateCSV update = new UpdateCSV();
-                    update.start();
-                } catch (IOException ex) {
-                    ex.printStackTrace();
-                }
+                UpdateCSV update = new UpdateCSV();
+                update.start();
 
             }
             else{
@@ -69,6 +64,9 @@ public class Dialog extends JFrame implements ActionListener {
                 long xmlUpdate = Main.xmlFile.lastModified();
                 CheckUpdateXML xmlThread = new CheckUpdateXML(Main.xmlFile,xmlUpdate);
                 xmlThread.start();
+
+                UpdateXML update = new UpdateXML();
+                update.start();
             }
 
 
