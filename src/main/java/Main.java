@@ -1,16 +1,15 @@
 import javax.swing.*;
-import javax.xml.bind.JAXBException;
 import java.io.File;
-import java.io.IOException;
 
 public class Main {
-    static String csvPath="";
-    static String xmlPath="";
-    static File csvFile;
-    static File xmlFile;
+    static String selectedFormat;
+    static final String csvPath="C:\\Dysk_D\\pliki_do_projektu\\alarmy_gotowe2.csv";
+    static final String xmlPath="C:\\Dysk_D\\pliki_do_projektu\\alarmy_gotowe2.xml";
+    static final File csvFile = new File (csvPath);
+    static File xmlFile = new File(xmlPath);
     static Window window = new Window();
 
-    public static void main(String arg[]) throws IOException, JAXBException, InterruptedException {
+    public static void main(String arg[]){
 
 
         Dialog dialog = new Dialog();

@@ -1,26 +1,23 @@
-import javax.swing.*;
-import java.beans.PropertyChangeEvent;
-import java.beans.PropertyChangeListener;
+import javax.xml.bind.JAXBException;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
-public class CsvAlarmsChannel implements PropertyChangeListener {
+public class AlarmsChannel {
 
 
-    public void propertyChange(PropertyChangeEvent evt) {
-        try {
-            this.setAlarms();
-        } catch (IOException ex) {
-            ex.printStackTrace();
+    public void setAlarms() throws IOException, JAXBException {
+        List<List<String>> listCSV;
+        if(Main.selectedFormat.equals("XML")){
+            AdapterXML adapterXML = new AdapterXML();
+            listCSV = adapterXML.getListXML();
         }
-    }
+        else{
+            ReaderCSV readerCSV = new ReaderCSV();
+            listCSV = readerCSV.getData();
+        }
 
-    public void setAlarms() throws IOException {
         List<AlarmBuilder> listOfAlarms = new ArrayList<>();
-        ReaderCSV readerCSV = new ReaderCSV();
-        List<List<String>> listCSV = readerCSV.getData();
-
         for(List<String> e: listCSV){
             listOfAlarms.add(new AlarmBuilder.Builder()
                     .notificationIdentifier(e.get(0))
