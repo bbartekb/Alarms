@@ -1,6 +1,7 @@
 import javax.xml.bind.JAXBException;
 import java.io.File;
 import java.io.IOException;
+import java.text.ParseException;
 
 public class CheckUpdate extends Thread {
     private File file;
@@ -21,6 +22,8 @@ public class CheckUpdate extends Thread {
             e.printStackTrace();
         } catch (JAXBException e) {
             e.printStackTrace();
+        } catch (ParseException e) {
+            e.printStackTrace();
         }
 
         for(int i = 0; i <= 60; ++i) {
@@ -30,7 +33,7 @@ public class CheckUpdate extends Thread {
                     observable.setDate(this.file.lastModified());
                 } catch (IOException e) {
                     e.printStackTrace();
-                } catch (JAXBException e) {
+                } catch (JAXBException | ParseException e) {
                     e.printStackTrace();
                 }
             }

@@ -8,11 +8,18 @@ public class Main {
     static final File csvFile = new File (csvPath);
     static File xmlFile = new File(xmlPath);
     static Window window = new Window();
+    static CollectionOfAlarms collectionOfAlarms = new CollectionOfAlarms();
 
     public static void main(String arg[]){
 
+// dla updateowania pliku, a nie kolekcji
+/*        Dialog dialog = new Dialog();
+        dialog.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        dialog.setVisible(true);*/
 
-        Dialog dialog = new Dialog();
+// Dla updatowania kolekcji
+
+        DialogForCollection dialog = new DialogForCollection();
         dialog.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         dialog.setVisible(true);
 

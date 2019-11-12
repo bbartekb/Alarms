@@ -1,16 +1,18 @@
 import javax.swing.*;
+import javax.xml.bind.JAXBException;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
-import java.io.File;
+import java.io.*;
+import java.text.ParseException;
 
-public class Dialog extends JFrame implements ActionListener {
-
+public class DialogForCollection extends JFrame implements ActionListener {
     JLabel title;
     JComboBox<String> path;
     JButton confirm;
     File selectedFile;
+    BufferedReader csvRead;
 
-    public Dialog() {
+    public DialogForCollection(){
         setSize(400, 200);
         setTitle("Scieżka");
         setLayout(null);
@@ -31,8 +33,8 @@ public class Dialog extends JFrame implements ActionListener {
         confirm.setBounds(200, 90, 130, 30);
         confirm.addActionListener(this);
         add(confirm);
-    }
 
+    }
 
     @Override
     public void actionPerformed(ActionEvent e) {
@@ -41,18 +43,26 @@ public class Dialog extends JFrame implements ActionListener {
             Main.selectedFormat = path.getSelectedItem().toString();
             if(Main.selectedFormat.equals("XML")){
                 selectedFile=Main.xmlFile;
-                UpdateXML update = new UpdateXML();
-                update.start();
             }
             else{
                 selectedFile=Main.csvFile;
-                UpdateCSV update = new UpdateCSV();
-                update.start();
             }
-                long fileUpdateTime = selectedFile.lastModified();
-                CheckUpdate checkUpdeteThread = new CheckUpdate(selectedFile,fileUpdateTime);
-                checkUpdeteThread.start();
-
+UpdateCollectionUpdate a = new UpdateCollectionUpdate();
+            a.start();
+            UpdateCollectionAdd updateCollection = new UpdateCollectionAdd();
+            updateCollection.start();
+            UpdateCollectionRemove updateCollectionRemove = new UpdateCollectionRemove();
+            updateCollectionRemove.start();
+            AlarmsChannel alarmsChannel = new AlarmsChannel();
+            try {
+                alarmsChannel.setAlarms();
+            } catch (IOException ex) {
+                ex.printStackTrace();
+            } catch (JAXBException ex) {
+                ex.printStackTrace();
+            } catch (ParseException ex) {
+                ex.printStackTrace();
+            }
 
 
             Main.window.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);

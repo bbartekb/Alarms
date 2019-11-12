@@ -1,5 +1,6 @@
 import javax.xml.bind.JAXBException;
 import java.io.IOException;
+import java.text.ParseException;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -18,7 +19,7 @@ public class FileObserver {
         this.observers.remove(observer);
     }
 
-    public void setDate (Long date) throws IOException, JAXBException {
+    public void setDate (Long date) throws IOException, JAXBException, ParseException {
         this.date=date;
         for (AlarmsChannel observer : this.observers) {
             observer.setAlarms();

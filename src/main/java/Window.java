@@ -85,7 +85,7 @@ public class Window extends JFrame implements ActionListener {
         add(lEventTime);
     }
 
-    public void setParameters(List<AlarmBuilder> listOfAlarms){
+    public void setParameters(List<AlarmDTO> listOfAlarms){
 
         int numberOfAlarmsToDisplay;
         if(listOfAlarms.size()<20){

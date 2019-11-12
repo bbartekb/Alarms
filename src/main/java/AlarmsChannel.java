@@ -1,12 +1,13 @@
 import javax.xml.bind.JAXBException;
 import java.io.IOException;
+import java.text.ParseException;
 import java.util.ArrayList;
 import java.util.List;
 
 public class AlarmsChannel {
 
 
-    public void setAlarms() throws IOException, JAXBException {
+    public void setAlarms() throws IOException, JAXBException, ParseException {
         List<List<String>> listCSV;
         if(Main.selectedFormat.equals("XML")){
             AdapterXML adapterXML = new AdapterXML();
@@ -17,9 +18,9 @@ public class AlarmsChannel {
             listCSV = readerCSV.getData();
         }
 
-        List<AlarmBuilder> listOfAlarms = new ArrayList<>();
+        List<AlarmDTO> listOfAlarms = new ArrayList<>();
         for(List<String> e: listCSV){
-            listOfAlarms.add(new AlarmBuilder.Builder()
+            listOfAlarms.add(new AlarmDTO.Builder()
                     .notificationIdentifier(e.get(0))
                     .acknowledgeState(e.get(1))
                     .acknowledgeUserID(e.get(2))
@@ -28,6 +29,11 @@ public class AlarmsChannel {
                     .eventTime(e.get(5))
                     .build());
         }
+
+        // tu dla dialog 2 sobie tworzę kolekcję z alarmami
+        Main.collectionOfAlarms.setCollection(listOfAlarms);
+
+        // nie wiem czy w tym miejscu będę to odpalał
         Main.window.setParameters(listOfAlarms);
     }
 

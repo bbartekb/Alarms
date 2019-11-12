@@ -1,15 +1,14 @@
-import java.text.DateFormat;
 import java.text.SimpleDateFormat;
 import java.text.ParseException;
 import java.util.Date;
 
-public class AlarmBuilder {
+public class AlarmDTO {
     private String notificationIdentifier;
     private String acknowledgeState;
     private String acknowledgeUserID;
     private Integer alertCount;
     private String moTTInfo;
-    private Date eventTime;
+    private String eventTime;
 
     public static final class Builder {
         private String notificationIdentifier;
@@ -17,7 +16,7 @@ public class AlarmBuilder {
         private String acknowledgeUserID;
         private Integer alertCount;
         private String moTTInfo;
-        private Date eventTime ;
+        private String eventTime ;
         SimpleDateFormat formatter = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
 
 
@@ -50,7 +49,8 @@ public class AlarmBuilder {
 
         public Builder eventTime(String eventTime){
             try {
-                this.eventTime = formatter.parse(eventTime);
+                Date additionalTime = formatter.parse(eventTime);
+                this.eventTime = formatter.format(additionalTime);
             } catch (ParseException e) {
                 e.printStackTrace();
             }
@@ -60,18 +60,18 @@ public class AlarmBuilder {
 
 
 
-        public AlarmBuilder build() {
+        public AlarmDTO build(){
             if(notificationIdentifier.isEmpty()){
                 throw new IllegalStateException("Notification Identifier cannot be empty");
             }
             if(acknowledgeState.isEmpty()){
                 throw new IllegalStateException("Acknowledge State cannot be empty");
             }
-            if(eventTime.toString().isEmpty()){
+            if(eventTime.isEmpty()){
                 throw new IllegalStateException("Event Time cannot be empty");
             }
 
-            AlarmBuilder alarm = new AlarmBuilder();
+            AlarmDTO alarm = new AlarmDTO();
             alarm.notificationIdentifier = this.notificationIdentifier;
             alarm.acknowledgeState= this.acknowledgeState;
             alarm.acknowledgeUserID = this.acknowledgeUserID;
@@ -79,6 +79,20 @@ public class AlarmBuilder {
             alarm.moTTInfo = this.moTTInfo;
             alarm.eventTime = this.eventTime;
             return alarm;
+        }
+
+
+
+
+
+        public Builder from(AlarmDTO alarm) {
+            notificationIdentifier(alarm.getNotificationIdentifier());
+            acknowledgeState(alarm.getAcknowledgeState());
+            acknowledgeUserID(alarm.getAcknowledgeUserID());
+            moTTInfo(alarm.getMoTTInfo());
+            alertCount(alarm.getAlertCount().toString());
+            eventTime(alarm.getEventTime().toString());
+            return this;
         }
     }
 
@@ -97,7 +111,7 @@ public class AlarmBuilder {
     public Integer getAlertCount(){
         return this.alertCount;
     }
-    public Date getEventTime(){
+    public String getEventTime(){
         return this.eventTime;
     }
 }

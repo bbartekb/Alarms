@@ -2,25 +2,29 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f81a3c1b-8c03-464c-b326-a7fb5661e94c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/CheckUpdate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/FileObserver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/CollectionOfAlarms.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DialogForCollection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/UpdateCollectionAdd.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/UpdateCollectionRemove.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/UpdateCollectionUpdate.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/CheckUpdateCSV.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/CheckUpdateCSV.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/CheckUpdateXML.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/CsvAlarmsChannel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/CsvAlarmsChannel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/CsvFileObserver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/CsvFileObserver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/AlarmBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/AlarmDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/AlarmsChannel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/AlarmsChannel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/CheckUpdate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/CheckUpdate.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Dialog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Dialog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/FileObserver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/FileObserver.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/XmlAlarmsChannel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/AlarmsChannel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/XmlFileObserver.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/CheckUpdateCSV.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/CheckUpdateXML.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/CsvAlarmsChannel.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/CsvFileObserver.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Window.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Window.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/AlarmBuilder$Builder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/AlarmBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/AlarmsChannel.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/AlarmsChannel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/CheckUpdate.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/CheckUpdate.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/Dialog.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Dialog.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/FileObserver.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/FileObserver.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/XmlAlarmsChannel.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/XmlFileObserver.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/UpdateCSV.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/UpdateCSV.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/UpdateXML.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/UpdateXML.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Window.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Window.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -131,31 +135,43 @@
           <option name="timeStamp" value="35" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/CheckUpdate.java</url>
-          <line>14</line>
-          <option name="timeStamp" value="46" />
+          <url>file://$PROJECT_DIR$/src/main/java/DialogForCollection.java</url>
+          <line>67</line>
+          <option name="timeStamp" value="60" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/CheckUpdate.java</url>
-          <line>15</line>
-          <option name="timeStamp" value="47" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/CheckUpdate.java</url>
-          <line>16</line>
-          <option name="timeStamp" value="48" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/CheckUpdate.java</url>
-          <line>18</line>
-          <option name="timeStamp" value="49" />
+          <url>file://$PROJECT_DIR$/src/main/java/UpdateCollectionAdd.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="63" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/AlarmsChannel.java</url>
-          <line>19</line>
-          <option name="timeStamp" value="53" />
+          <line>20</line>
+          <option name="timeStamp" value="77" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/AlarmsChannel.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="78" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/AlarmsChannel.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="79" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/AlarmsChannel.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="80" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="Main.collectionOfAlarms" language="JAVA" />
+        <watch expression="this" />
+        <watch expression="listCSV" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>
