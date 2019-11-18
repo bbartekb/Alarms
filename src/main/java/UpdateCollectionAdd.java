@@ -1,8 +1,8 @@
-public class UpdateCollectionAdd extends Thread {
+public class UpdateCollectionAdd implements Runnable {
     public void run() {
-        for(int i=0;i<25;i++) {
+        for(int i=0;i<5;i++) {
             try {
-                Thread.sleep(2000);
+                Thread.sleep(3000);
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }

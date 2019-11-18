@@ -47,12 +47,6 @@ public class DialogForCollection extends JFrame implements ActionListener {
             else{
                 selectedFile=Main.csvFile;
             }
-UpdateCollectionUpdate a = new UpdateCollectionUpdate();
-            a.start();
-            UpdateCollectionAdd updateCollection = new UpdateCollectionAdd();
-            updateCollection.start();
-            UpdateCollectionRemove updateCollectionRemove = new UpdateCollectionRemove();
-            updateCollectionRemove.start();
             AlarmsChannel alarmsChannel = new AlarmsChannel();
             try {
                 alarmsChannel.setAlarms();
@@ -67,6 +61,15 @@ UpdateCollectionUpdate a = new UpdateCollectionUpdate();
 
             Main.window.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
             Main.window.setVisible(true);
+
+
+            try {
+                SimpleThreadPool simpleThreadPool = new SimpleThreadPool();
+            } catch (InterruptedException ex) {
+                ex.printStackTrace();
+            }
+
+
 
         }
     }

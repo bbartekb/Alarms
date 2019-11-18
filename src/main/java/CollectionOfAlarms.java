@@ -9,17 +9,17 @@ public class CollectionOfAlarms {
         this.collection = collection;
     }
 
-    public void add(AlarmDTO alarm){
+    public synchronized void add(AlarmDTO alarm){
         this.collection.add(alarm);
         Main.window.setParameters(this.collection);
     }
 
-    public void remove(int i){
+    public synchronized void remove(int i){
         this.collection.remove(i);
         Main.window.setParameters(this.collection);
     }
 
-    public void add (AlarmDTO alarm, int i){
+    public synchronized void add (AlarmDTO alarm, int i){
         this.collection.add(i,alarm);
         Main.window.setParameters(this.collection);
 

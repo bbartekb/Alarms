@@ -95,6 +95,14 @@ public class Window extends JFrame implements ActionListener {
             numberOfAlarmsToDisplay=20;
         }
 
+            for(int i=0; i<20;i++){
+                nID[i].setText(" ");
+                acknState[i].setText(" ");
+                acknUserId[i].setText(" ");
+                alertCount[i].setText(" ");
+                MOTTInfo[i].setText(" ");
+                eventTime[i].setText(" ");
+             }
             for(int i=0; i<numberOfAlarmsToDisplay;i++){
                 nID[i].setText(listOfAlarms.get(i).getNotificationIdentifier());
                 acknState[i].setText(listOfAlarms.get(i).getAcknowledgeState());

@@ -1,15 +1,17 @@
-public class UpdateCollectionRemove extends Thread  {
+import java.util.Random;
+
+public class UpdateCollectionRemove implements Runnable  {
 
     public void run() {
-        for (int i = 0; i < 25; i++) {
+        for (int i = 0; i < 5; i++) {
             try {
-                Thread.sleep(5000);
+                Thread.sleep(4000);
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }
-
-
-            Main.collectionOfAlarms.remove(3);
+            double losowa = Math.random()*13;
+            int random= (int) losowa;
+            Main.collectionOfAlarms.remove(random);
         }
 
     }
