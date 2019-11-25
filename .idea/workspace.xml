@@ -2,20 +2,55 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f81a3c1b-8c03-464c-b326-a7fb5661e94c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/SimpleThreadPool.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dto/ObjectDTOInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dto/TicketDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/kolekcjaAlarmow/CollectionOfObjects.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/kolekcjaAlarmow/ConcurrentCollectionOfAlarms.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/kolekcjaAlarmow/InterfaceCollection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/podstawa/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/podstawa/Runner.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/CollectionOfAlarms.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/CollectionOfAlarms.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/DialogForCollection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DialogForCollection.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/UpdateCollectionAdd.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/UpdateCollectionAdd.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/UpdateCollectionRemove.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/UpdateCollectionRemove.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/UpdateCollectionUpdate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/UpdateCollectionUpdate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Window.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Window.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/CollectionOfAlarms.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/CollectionOfAlarms.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/DialogForCollection.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/DialogForCollection.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/UpdateCollectionAdd.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/UpdateCollectionAdd.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/UpdateCollectionRemove.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/UpdateCollectionRemove.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/UpdateCollectionUpdate.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/UpdateCollectionUpdate.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Window.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Window.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/AdapterXML.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/wyciaganieZPliku/AdapterXML.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/AlarmAttribute.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/wyciaganieZPliku/AlarmAttribute.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/AlarmDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dto/AlarmDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/AlarmXML.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/wyciaganieZPliku/AlarmXML.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/AlarmsChannel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/podstawa/AlarmsChannel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/AlarmsXML.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/wyciaganieZPliku/AlarmsXML.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/CheckUpdate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/observer/CheckUpdate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/CollectionOfAlarms.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kolekcjaAlarmow/CollectionOfAlarms.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Dialog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/wyswietlanieSwing/Dialog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/DialogForCollection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/wyswietlanieSwing/DialogForCollection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/FileObserver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/observer/FileObserver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ReaderCSV.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/wyciaganieZPliku/ReaderCSV.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SimpleThreadPool.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/updateKolekcji/SimpleThreadPool.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/UpdateCSV.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/updatePlikow/UpdateCSV.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/UpdateCollectionAdd.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/updateKolekcji/UpdateCollectionAdd.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/UpdateCollectionRemove.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/updateKolekcji/UpdateCollectionRemove.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/UpdateCollectionUpdate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/updateKolekcji/UpdateCollectionUpdate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/UpdateXML.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/updatePlikow/UpdateXML.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Window.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/wyswietlanieSwing/Window.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/AdapterXML.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/AlarmAttribute.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/AlarmDTO$Builder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/AlarmDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/AlarmXML.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/AlarmsChannel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/AlarmsXML.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/CheckUpdate.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/CollectionOfAlarms.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Dialog.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/DialogForCollection.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/FileObserver.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ReaderCSV.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/SimpleThreadPool.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/UpdateCSV.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/UpdateCollectionAdd.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/UpdateCollectionRemove.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/UpdateCollectionUpdate.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/UpdateXML.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Window.class" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -26,6 +61,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -66,7 +102,7 @@
   </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
+      <option name="MAIN_CLASS_NAME" value="podstawa.Main" />
       <module name="Alarms" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -111,34 +147,54 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/Dialog.java</url>
-          <line>51</line>
+          <url>file://$PROJECT_DIR$/src/main/java/wyswietlanieSwing/Dialog.java</url>
+          <line>50</line>
           <option name="timeStamp" value="33" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/Dialog.java</url>
-          <line>52</line>
+          <url>file://$PROJECT_DIR$/src/main/java/wyswietlanieSwing/Dialog.java</url>
+          <line>51</line>
           <option name="timeStamp" value="34" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/Dialog.java</url>
-          <line>53</line>
+          <url>file://$PROJECT_DIR$/src/main/java/wyswietlanieSwing/Dialog.java</url>
+          <line>52</line>
           <option name="timeStamp" value="35" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/UpdateCollectionAdd.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/updateKolekcji/UpdateCollectionAdd.java</url>
           <line>21</line>
           <option name="timeStamp" value="63" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/UpdateCollectionRemove.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/updateKolekcji/UpdateCollectionRemove.java</url>
           <line>13</line>
           <option name="timeStamp" value="86" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/UpdateCollectionUpdate.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/updateKolekcji/UpdateCollectionUpdate.java</url>
           <line>12</line>
           <option name="timeStamp" value="92" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/kolekcjaAlarmow/ConcurrentCollectionOfAlarms.java</url>
+          <line>40</line>
+          <option name="timeStamp" value="93" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/kolekcjaAlarmow/ConcurrentCollectionOfAlarms.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="94" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/kolekcjaAlarmow/ConcurrentCollectionOfAlarms.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="96" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/kolekcjaAlarmow/ConcurrentCollectionOfAlarms.java</url>
+          <line>41</line>
+          <option name="timeStamp" value="97" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
