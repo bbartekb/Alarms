@@ -1,4 +1,4 @@
-package observer;
+package nieuzywane.observer;
 
 import podstawa.AlarmsChannel;
 

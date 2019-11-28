@@ -1,4 +1,8 @@
-package kolekcjaAlarmow;
+// To jest bez użycia concurrent list - występuje słowo synchronized, żeby jednocześnie wątki nie próbowały nadpisać pliku
+
+
+
+package nieuzywane;
 
 import dto.AlarmDTO;
 import podstawa.Runner;

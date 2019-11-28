@@ -1,9 +1,9 @@
-package wyswietlanieSwing;
+package nieuzywane;
 
-import observer.CheckUpdate;
+import nieuzywane.observer.CheckUpdate;
 import podstawa.Runner;
-import updatePlikow.UpdateCSV;
-import updatePlikow.UpdateXML;
+import nieuzywane.updatePlikow.UpdateCSV;
+import nieuzywane.updatePlikow.UpdateXML;
 
 import javax.swing.*;
 import java.awt.event.ActionEvent;

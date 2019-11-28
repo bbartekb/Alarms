@@ -88,32 +88,32 @@ public class AlarmDTO implements ObjectDTOInterface{
 
 
         public Builder from(AlarmDTO alarm) {
-            notificationIdentifier(alarm.getNotificationIdentifier());
-            acknowledgeState(alarm.getAcknowledgeState());
-            acknowledgeUserID(alarm.getAcknowledgeUserID());
-            moTTInfo(alarm.getMoTTInfo());
-            alertCount(alarm.getAlertCount().toString());
-            eventTime(alarm.getEventTime().toString());
+            notificationIdentifier(alarm.getFirstAttribute());
+            acknowledgeState(alarm.getSecondAttribute());
+            acknowledgeUserID(alarm.getThirdAttribute());
+            moTTInfo(alarm.getFourthAttribute());
+            alertCount(alarm.getFifthAttribute().toString());
+            eventTime(alarm.getSixthAttribute().toString());
             return this;
         }
     }
 
-    public String getNotificationIdentifier(){
+    public String getFirstAttribute(){
         return this.notificationIdentifier;
     }
-    public String getAcknowledgeState(){
+    public String getSecondAttribute(){
         return this.acknowledgeState;
     }
-    public String getAcknowledgeUserID(){
+    public String getThirdAttribute(){
         return this.acknowledgeUserID;
     }
-    public String getMoTTInfo(){
+    public String getFourthAttribute(){
         return this.moTTInfo;
     }
-    public Integer getAlertCount(){
+    public Integer getFifthAttribute(){
         return this.alertCount;
     }
-    public String getEventTime(){
+    public String getSixthAttribute(){
         return this.eventTime;
     }
 }

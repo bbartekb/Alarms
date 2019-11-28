@@ -1,12 +1,14 @@
 package wyswietlanieSwing;
 
 import dto.AlarmDTO;
+import dto.ObjectDTOInterface;
 
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.util.List;
+import java.util.concurrent.CopyOnWriteArrayList;
 
 public class Window extends JFrame implements ActionListener {
 
@@ -108,17 +110,44 @@ public class Window extends JFrame implements ActionListener {
                 eventTime[i].setText(" ");
              }
             for(int i=0; i<numberOfAlarmsToDisplay;i++){
-                nID[i].setText(listOfAlarms.get(i).getNotificationIdentifier());
-                acknState[i].setText(listOfAlarms.get(i).getAcknowledgeState());
-                acknUserId[i].setText(listOfAlarms.get(i).getAcknowledgeUserID());
-                alertCount[i].setText(String.valueOf(listOfAlarms.get(i).getAlertCount()));
-                MOTTInfo[i].setText(listOfAlarms.get(i).getMoTTInfo());
-                eventTime[i].setText(String.valueOf(listOfAlarms.get(i).getEventTime()));
+                nID[i].setText(listOfAlarms.get(i).getFirstAttribute());
+                acknState[i].setText(listOfAlarms.get(i).getSecondAttribute());
+                acknUserId[i].setText(listOfAlarms.get(i).getThirdAttribute());
+                alertCount[i].setText(String.valueOf(listOfAlarms.get(i).getFifthAttribute()));
+                MOTTInfo[i].setText(listOfAlarms.get(i).getFourthAttribute());
+                eventTime[i].setText(String.valueOf(listOfAlarms.get(i).getSixthAttribute()));
              }
         }
 
     @Override
     public void actionPerformed(ActionEvent e) {
 
+    }
+
+    public <T extends ObjectDTOInterface> void setParametersA(CopyOnWriteArrayList<T> listOfAlarms) {
+        int numberOfAlarmsToDisplay;
+        if(listOfAlarms.size()<20){
+            numberOfAlarmsToDisplay=listOfAlarms.size();
+        }
+        else{
+            numberOfAlarmsToDisplay=20;
+        }
+
+        for(int i=0; i<20;i++){
+            nID[i].setText(" ");
+            acknState[i].setText(" ");
+            acknUserId[i].setText(" ");
+            alertCount[i].setText(" ");
+            MOTTInfo[i].setText(" ");
+            eventTime[i].setText(" ");
+        }
+        for(int i=0; i<numberOfAlarmsToDisplay;i++){
+            nID[i].setText(listOfAlarms.get(i).getFirstAttribute());
+            acknState[i].setText(listOfAlarms.get(i).getSecondAttribute());
+            acknUserId[i].setText(listOfAlarms.get(i).getThirdAttribute());
+            alertCount[i].setText(String.valueOf(listOfAlarms.get(i).getFifthAttribute()));
+            MOTTInfo[i].setText(listOfAlarms.get(i).getFourthAttribute());
+            eventTime[i].setText(String.valueOf(listOfAlarms.get(i).getSixthAttribute()));
+        }
     }
 }

@@ -1,7 +1,7 @@
-package updateKolekcji;
+package updateAlarmow;
 import podstawa.Runner;
 
-public class UpdateCollectionRemove implements Runnable  {
+public class UpdateCollectionRemoveAlarm implements Runnable  {
 
     public void run() {
         for (int i = 0; i < 5; i++) {

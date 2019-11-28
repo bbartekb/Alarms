@@ -1,8 +1,8 @@
-package updateKolekcji;
+package updateAlarmow;
 import dto.AlarmDTO;
 import podstawa.Runner;
 
-public class UpdateCollectionAdd implements Runnable {
+public class UpdateCollectionAddAlarm implements Runnable {
     public void run() {
         for(int i=0;i<5;i++) {
             try {

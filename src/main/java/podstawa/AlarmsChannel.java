@@ -35,7 +35,7 @@ public class AlarmsChannel {
                     .build());
         }
 
-        Runner.getCollection().setCollection(listOfAlarms);
+        Runner.getCollection().setCollectionA(listOfAlarms);
         Runner.getWindow().setParameters(listOfAlarms);
     }
 

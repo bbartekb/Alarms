@@ -1,4 +1,7 @@
-package kolekcjaAlarmow;
+// Mamy tutaj concurrent list, ale jest tylko używane dla list z AlarmDTO, zastąpione przez CollectionsOfObject, gdzie mamy listę z typem uogólnionym
+
+
+package nieuzywane;
 
 import dto.AlarmDTO;
 import podstawa.Runner;

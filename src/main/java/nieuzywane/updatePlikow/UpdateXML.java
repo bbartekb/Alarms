@@ -1,4 +1,4 @@
-package updatePlikow;
+package nieuzywane.updatePlikow;
 
 import podstawa.Runner;
 import wyciaganieZPliku.AlarmAttribute;

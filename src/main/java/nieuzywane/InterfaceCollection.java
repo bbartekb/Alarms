@@ -1,4 +1,6 @@
-package kolekcjaAlarmow;
+//to było jak mieliśmy do wyboru dwie kolekcje z alarmami, żeby łatwiej zarządzać
+
+package nieuzywane;
 
 import dto.AlarmDTO;
 
