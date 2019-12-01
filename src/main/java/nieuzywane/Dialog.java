@@ -1,3 +1,4 @@
+/*
 package nieuzywane;
 
 import nieuzywane.observer.CheckUpdate;
@@ -67,3 +68,4 @@ public class Dialog extends JFrame implements ActionListener {
         }
     }
 }
+*/

@@ -5,6 +5,6 @@ public interface ObjectDTOInterface {
     public String getSecondAttribute();
     public String getThirdAttribute();
     public String getFourthAttribute();
-    public Integer getFifthAttribute();
+    public String getFifthAttribute();
     public String getSixthAttribute();
 }

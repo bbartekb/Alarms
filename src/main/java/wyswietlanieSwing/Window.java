@@ -66,27 +66,27 @@ public class Window extends JFrame implements ActionListener {
             add(eventTime[i]);
         }
 
-        lNotificationIdentifier = new JLabel("Notification Identifier");
+        lNotificationIdentifier = new JLabel("First Attribute");
         lNotificationIdentifier.setBounds(30, 10, 150, 40);
         add(lNotificationIdentifier);
 
-        lAcknowledgeState = new JLabel("Acknowledge State");
+        lAcknowledgeState = new JLabel("Second Attribute");
         lAcknowledgeState.setBounds(200, 10, 150, 40);
         add(lAcknowledgeState);
 
-        lAcknowledgeUserID = new JLabel("Acknowledge User ID");
+        lAcknowledgeUserID = new JLabel("Third Attribute");
         lAcknowledgeUserID.setBounds(370, 10, 150, 40);
         add(lAcknowledgeUserID);
 
-        lAlertCount= new JLabel("Alert Count");
+        lAlertCount= new JLabel("Fourth Attribute");
         lAlertCount.setBounds(540, 10, 150, 40);
         add(lAlertCount);
 
-        lMoTtInfo = new JLabel("MO TT Info");
+        lMoTtInfo = new JLabel("Fifth Attribute");
         lMoTtInfo.setBounds(710, 10, 150, 40);
         add(lMoTtInfo);
 
-        lEventTime = new JLabel("Event Time");
+        lEventTime = new JLabel("Sixth Attribute");
         lEventTime.setBounds(880, 10, 150, 40);
         add(lEventTime);
     }

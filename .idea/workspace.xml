@@ -2,41 +2,35 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f81a3c1b-8c03-464c-b326-a7fb5661e94c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/podstawa/MOsChannel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/updateMO/ThreadPoolForMOs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/updateMO/UpdateCollectionAddMO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/updateMO/UpdateCollectionRemoveMO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/updateMO/UpdateCollectionUpdateMO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/dto/AlarmDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dto/AlarmDTO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/dto/ObjectDTOInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dto/ObjectDTOInterface.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dto/TicketDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dto/TicketDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/kolekcjaAlarmow/CollectionOfAlarms.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nieuzywane/CollectionOfAlarms.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dto/TicketDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dto/MoDTO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/kolekcjaAlarmow/CollectionOfObjects.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kolekcjaAlarmow/CollectionOfObjects.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/kolekcjaAlarmow/ConcurrentCollectionOfAlarms.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nieuzywane/ConcurrentCollectionOfAlarms.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/kolekcjaAlarmow/InterfaceCollection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nieuzywane/InterfaceCollection.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/observer/CheckUpdate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nieuzywane/observer/CheckUpdate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/observer/FileObserver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nieuzywane/observer/FileObserver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/nieuzywane/Dialog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nieuzywane/Dialog.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/podstawa/AlarmsChannel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/podstawa/AlarmsChannel.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/podstawa/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/podstawa/Runner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/updateKolekcji/SimpleThreadPool.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/updateAlarmow/ThreadPoolForAlarms.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/updateKolekcji/UpdateCollectionAdd.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/updateAlarmow/UpdateCollectionAddAlarm.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/updateKolekcji/UpdateCollectionRemove.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/updateAlarmow/UpdateCollectionRemoveAlarm.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/updateKolekcji/UpdateCollectionUpdate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/updateAlarmow/UpdateCollectionUpdateAlarm.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/updatePlikow/UpdateCSV.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nieuzywane/updatePlikow/UpdateCSV.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/updatePlikow/UpdateXML.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nieuzywane/updatePlikow/UpdateXML.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/wyswietlanieSwing/Dialog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nieuzywane/Dialog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/updateAlarmow/UpdateCollectionUpdateAlarm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/updateAlarmow/UpdateCollectionUpdateAlarm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/wyciaganieZPliku/ReaderCSV.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/wyciaganieZPliku/ReaderCSV.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/wyswietlanieSwing/DialogForCollection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/wyswietlanieSwing/DialogForCollection.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/wyswietlanieSwing/Window.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/wyswietlanieSwing/Window.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/dto/AlarmDTO$Builder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dto/AlarmDTO$Builder.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/dto/AlarmDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dto/AlarmDTO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/kolekcjaAlarmow/CollectionOfAlarms.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/kolekcjaAlarmow/ConcurrentCollectionOfAlarms.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/kolekcjaAlarmow/InterfaceCollection.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/observer/CheckUpdate.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/observer/FileObserver.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dto/ObjectDTOInterface.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dto/ObjectDTOInterface.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dto/TicketDTO$Builder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dto/TicketDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/kolekcjaAlarmow/CollectionOfObjects.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/kolekcjaAlarmow/CollectionOfObjects.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/podstawa/AlarmsChannel.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/podstawa/AlarmsChannel.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/podstawa/Runner.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/podstawa/Runner.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/updateKolekcji/SimpleThreadPool.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/updateKolekcji/UpdateCollectionAdd.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/updateKolekcji/UpdateCollectionRemove.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/updateKolekcji/UpdateCollectionUpdate.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/wyswietlanieSwing/Dialog.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/updateAlarmow/UpdateCollectionUpdateAlarm.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/updateAlarmow/UpdateCollectionUpdateAlarm.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/updatePlikow/UpdateCSV.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/updatePlikow/UpdateXML.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/wyciaganieZPliku/ReaderCSV.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/wyciaganieZPliku/ReaderCSV.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/wyswietlanieSwing/DialogForCollection.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/wyswietlanieSwing/DialogForCollection.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/wyswietlanieSwing/Window.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/wyswietlanieSwing/Window.class" afterDir="false" />
     </list>
@@ -71,10 +65,20 @@
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/eclipse-workspace/Samochody" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/updateMO" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="updateMO" />
+      <recent name="podstawa" />
+      <recent name="wyciaganieZPliku" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Dysk_D\Alarms\src\main\java\updateMO" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">

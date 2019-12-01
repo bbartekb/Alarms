@@ -110,8 +110,8 @@ public class AlarmDTO implements ObjectDTOInterface{
     public String getFourthAttribute(){
         return this.moTTInfo;
     }
-    public Integer getFifthAttribute(){
-        return this.alertCount;
+    public String getFifthAttribute(){
+        return this.alertCount.toString();
     }
     public String getSixthAttribute(){
         return this.eventTime;

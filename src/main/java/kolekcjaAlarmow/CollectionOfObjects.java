@@ -10,6 +10,7 @@ public class CollectionOfObjects<T extends ObjectDTOInterface> {
 
     public void setCollectionA(List<T> collection) {
         this.collection.addAll(collection);
+        Runner.getWindow().setParametersA(this.collection);
     }
 
     public synchronized void add(T alarm){
@@ -31,7 +32,7 @@ public class CollectionOfObjects<T extends ObjectDTOInterface> {
     public List<T> getCollection(){
         return this.collection;
     }
-    public T getAlarm(int i){
+    public T getObject(int i){
         return this.collection.get(i);
     }
 }

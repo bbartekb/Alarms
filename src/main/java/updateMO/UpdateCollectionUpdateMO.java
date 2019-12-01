@@ -1,8 +1,8 @@
-package updateAlarmow;
-import dto.AlarmDTO;
+package updateMO;
+import dto.MoDTO;
 import podstawa.Runner;
 
-public class UpdateCollectionUpdateAlarm extends Thread {
+public class UpdateCollectionUpdateMO extends Thread {
 
     public void run() {
         for (int i = 0; i < 5; i++) {
@@ -14,10 +14,10 @@ public class UpdateCollectionUpdateAlarm extends Thread {
             double losowa = Math.random()*13;
             int random= (int) losowa;
             Runner.getCollection().remove(random);
-            AlarmDTO.Builder alarmDTO = new AlarmDTO.Builder().from((AlarmDTO) Runner.getCollection().getObject(random));
-            alarmDTO.moTTInfo("ticket: "+i);
+            MoDTO.Builder moDTO = new MoDTO.Builder().from((MoDTO) Runner.getCollection().getObject(random));
+            moDTO.resource("ticket: "+i);
             Runner.getCollection().remove(random);
-            Runner.getCollection().add(alarmDTO.build(),random);
+            Runner.getCollection().add(moDTO.build(),random);
 
         }
 

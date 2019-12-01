@@ -1,8 +1,10 @@
 package wyswietlanieSwing;
 
 import podstawa.AlarmsChannel;
+import podstawa.MOsChannel;
 import podstawa.Runner;
 import updateAlarmow.ThreadPoolForAlarms;
+import updateMO.ThreadPoolForMOs;
 
 import javax.swing.*;
 import javax.xml.bind.JAXBException;
@@ -19,7 +21,7 @@ public class DialogForCollection extends JFrame implements ActionListener {
     File selectedFile;
     BufferedReader csvRead;
 
-    public DialogForCollection(){
+    public  DialogForCollection(){
         setSize(400, 280);
         setTitle("Scieżka");
         setLayout(null);
@@ -58,25 +60,37 @@ public class DialogForCollection extends JFrame implements ActionListener {
     public void actionPerformed(ActionEvent e) {
         Object zrodlo = e.getSource();
         if(zrodlo==confirm) {
-            Runner.setTypeOfData(type.getSelectedItem().toString());
 
-            Runner.setSelectedFile(path.getSelectedItem().toString());
-
-            AlarmsChannel alarmsChannel = new AlarmsChannel();
-            try {
-                alarmsChannel.setAlarms();
-            } catch (IOException ex) {
-                ex.printStackTrace();
-            } catch (JAXBException ex) {
-                ex.printStackTrace();
-            }
-
+            Runner.setSelectedFile(path.getSelectedItem().toString(),type.getSelectedItem().toString());
             Runner.getWindow().setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
             Runner.getWindow().setVisible(true);
 
             if(Runner.getTypeOfData().equals("Alarm")) {
+                AlarmsChannel alarmsChannel = new AlarmsChannel();
+                try {
+                    alarmsChannel.setAlarms();
+                } catch (IOException ex) {
+                    ex.printStackTrace();
+                } catch (JAXBException ex) {
+                    ex.printStackTrace();
+                }
                 try {
                     ThreadPoolForAlarms threadPoolForAlarms = new ThreadPoolForAlarms();
+                } catch (InterruptedException ex) {
+                    ex.printStackTrace();
+                }
+            }
+            else{
+                MOsChannel mOsChannel=new MOsChannel();
+                try {
+                    mOsChannel.setAlarms();
+                } catch (IOException ex) {
+                    ex.printStackTrace();
+                } catch (JAXBException ex) {
+                    ex.printStackTrace();
+                }
+                try {
+                    ThreadPoolForMOs threadPoolForMOs = new ThreadPoolForMOs();
                 } catch (InterruptedException ex) {
                     ex.printStackTrace();
                 }

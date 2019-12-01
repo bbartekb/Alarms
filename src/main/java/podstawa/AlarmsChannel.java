@@ -14,14 +14,16 @@ public class AlarmsChannel {
 
     public void setAlarms() throws IOException, JAXBException {
         List<List<String>> listCSV;
-        if(Runner.getSelectedFormat().equals("XML")){
+        if(Runner.getSelectedFormat().equals("XML")) {
             AdapterXML adapterXML = new AdapterXML();
             listCSV = adapterXML.getListXML();
         }
-        else{
-            ReaderCSV readerCSV = new ReaderCSV();
-            listCSV = readerCSV.getData();
-        }
+            else{
+                ReaderCSV readerCSV = new ReaderCSV();
+                listCSV = readerCSV.getData();
+            }
+
+
 
         List<AlarmDTO> listOfAlarms = new ArrayList<>();
         for(List<String> e: listCSV){
@@ -36,7 +38,6 @@ public class AlarmsChannel {
         }
 
         Runner.getCollection().setCollectionA(listOfAlarms);
-        Runner.getWindow().setParameters(listOfAlarms);
     }
 
 }

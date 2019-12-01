@@ -13,6 +13,8 @@ public class Runner{
     private static  String typeOfData;
     public static final String csvPath="C:\\Dysk_D\\pliki_do_projektu\\alarmy_gotowe2.csv";
     public static final String xmlPath="C:\\Dysk_D\\pliki_do_projektu\\alarmy_gotowe2.xml";
+    public static final String csvMOPath="C:\\Dysk_D\\pliki_do_projektu\\mo2.csv";
+    public static final String xmlMOPath="C:\\Dysk_D\\pliki_do_projektu\\mo2.xml";
     static final Window window = new Window();
  //   private static CollectionOfAlarms collectionOfAlarms = new CollectionOfAlarms();
     private static CollectionOfObjects collectionOfObjects = new CollectionOfObjects();
@@ -27,15 +29,26 @@ public class Runner{
     }
 
 
-    public static void setSelectedFile(String s) {
-     if(s.equals("XML")){
-         selectedFile=new File(xmlPath);
+    public static void setSelectedFile(String s, String type) {
+     if(type=="Alarm"){
+         if(s.equals("XML")){
+             selectedFile=new File(xmlPath);
+         }
+         else{
+             selectedFile=new File(csvPath);
+         }
      }
      else{
-         selectedFile=new File(csvPath);
+         if(s.equals("XML")){
+             selectedFile=new File(xmlMOPath);
+         }
+         else{
+             selectedFile=new File(csvMOPath);
+         }
      }
      selectedFormat=s;
-    }
+     typeOfData=type;
+     }
 
     public static File getSelectedFile(){
         return selectedFile;
@@ -62,6 +75,7 @@ public class Runner{
     public static Window getWindow(){
         return window;
     }
+
 
 
 }

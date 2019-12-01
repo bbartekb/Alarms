@@ -18,8 +18,10 @@ public class ReaderCSV {
         String row;
         while ((row = csvRead.readLine()) != null) {
             String[] data = row.split(";");
-            for(int i=1; i<data.length;i++){
-                data[i]=data[i].substring(1,data[i].length()-1);
+            if(Runner.getTypeOfData().equals("Alarm")){
+                for(int i=1; i<data.length;i++){
+                    data[i]=data[i].substring(1,data[i].length()-1);
+                }
             }
             records.add(Arrays.asList(data));
         }
