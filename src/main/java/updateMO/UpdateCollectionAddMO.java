@@ -1,7 +1,6 @@
 package updateMO;
-import dto.AlarmDTO;
-import dto.MoDTO;
-import podstawa.Runner;
+import dtoobjects.MoDTO;
+import basic.Runner;
 
 public class UpdateCollectionAddMO implements Runnable {
     public void run() {

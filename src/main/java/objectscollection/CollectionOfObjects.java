@@ -1,0 +1,40 @@
+package objectscollection;
+
+import dtoobjects.ObjectDTOInterface;
+import basic.Runner;
+import java.util.List;
+import java.util.concurrent.CopyOnWriteArrayList;
+
+public class CollectionOfObjects<T extends ObjectDTOInterface> {
+    private CopyOnWriteArrayList<T> collection=new CopyOnWriteArrayList<>();
+
+    public void setCollectionA(List<T> collection) {
+        this.collection.addAll(collection);
+        Runner.getWindow().setParametersA(this.collection);
+        StreamOperations streamOperations=new StreamOperations();
+        streamOperations.divideIntoTwoLists(this.collection);
+    }
+
+    public synchronized void add(T alarm){
+        this.collection.add(alarm);
+        Runner.getWindow().setParametersA(this.collection);
+    }
+
+    public synchronized void remove(int i){
+        this.collection.remove(i);
+        Runner.getWindow().setParametersA(this.collection);
+    }
+
+    public synchronized void add (T alarm, int i){
+        this.collection.add(i,alarm);
+        Runner.getWindow().setParametersA(this.collection);
+
+    }
+
+    public List<T> getCollection(){
+        return this.collection;
+    }
+    public T getObject(int i){
+        return this.collection.get(i);
+    }
+}
