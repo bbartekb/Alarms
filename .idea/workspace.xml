@@ -2,35 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f81a3c1b-8c03-464c-b326-a7fb5661e94c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/dtoobjects/TypeOfObjects.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/basic/AlarmsChannel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/basic/AlarmsChannel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/basic/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/basic/Runner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dtoobjects/AlarmDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dtoobjects/AlarmDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dtoobjects/MoDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dtoobjects/MoDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dtoobjects/ObjectDTOInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dtoobjects/ObjectDTOInterface.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/importfromfile/ReaderCSV.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/importfromfile/ReaderCSV.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/objectscollection/CollectionOfObjects.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/objectscollection/CollectionOfObjects.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/objectscollection/PairOfLists.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/objectscollection/PairOfLists.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/objectscollection/StreamOperations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/objectscollection/StreamOperations.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/swingdisplaying/DialogForCollection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/swingdisplaying/DialogForCollection.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/swingdisplaying/Window.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/swingdisplaying/Window.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/updateobject/UpdateCollectionUpdateAlarm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/updateobject/UpdateCollectionUpdateAlarm.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/basic/AlarmsChannel.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/basic/AlarmsChannel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/basic/Runner.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/basic/Runner.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/dtoobjects/AlarmDTO$Builder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dtoobjects/AlarmDTO$Builder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/dtoobjects/AlarmDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dtoobjects/AlarmDTO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/dtoobjects/MoDTO$Builder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dtoobjects/MoDTO$Builder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/dtoobjects/MoDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dtoobjects/MoDTO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/dtoobjects/ObjectDTOInterface.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dtoobjects/ObjectDTOInterface.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/importfromfile/ReaderCSV.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/importfromfile/ReaderCSV.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/objectscollection/CollectionOfObjects.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/objectscollection/CollectionOfObjects.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/objectscollection/PairOfLists.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/objectscollection/PairOfLists.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/objectscollection/StreamOperations.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/objectscollection/StreamOperations.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/swingdisplaying/DialogForCollection.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/swingdisplaying/DialogForCollection.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/swingdisplaying/Window.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/swingdisplaying/Window.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/updateobject/UpdateCollectionUpdateAlarm.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/updateobject/UpdateCollectionUpdateAlarm.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -51,6 +24,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
@@ -105,6 +83,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -183,12 +162,12 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/swingdisplaying/Window.java</url>
-          <line>116</line>
+          <line>128</line>
           <option name="timeStamp" value="174" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/swingdisplaying/Window.java</url>
-          <line>111</line>
+          <line>123</line>
           <option name="timeStamp" value="176" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -203,7 +182,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/swingdisplaying/Window.java</url>
-          <line>93</line>
+          <line>105</line>
           <properties class="swingdisplaying.Window" method="setParameters">
             <option name="EMULATED" value="true" />
           </properties>

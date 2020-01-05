@@ -12,6 +12,8 @@ import java.util.concurrent.CopyOnWriteArrayList;
 
 public class Window extends JFrame implements ActionListener {
 
+    private String title = "List of twenty alarms";
+
     JLabel lNotificationIdentifier;
     JLabel lAcknowledgeState;
     JLabel lAcknowledgeUserID;
@@ -27,10 +29,20 @@ public class Window extends JFrame implements ActionListener {
     TextField[] alertCount=new TextField[20];
     TextField[] eventTime=new TextField[20];
 
+    public String getTitle(){
+        return this.title;
+    }
 
+    public void setTitle(String s){
+        this.title=s;
+    }
     public Window() {
+
+
+
+
         setSize(1120, 700);
-        setTitle("List of twenty alarms");
+        setTitle(this.title);
         setLayout(null);
 
 
