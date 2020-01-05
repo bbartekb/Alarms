@@ -3,6 +3,7 @@ package dtoobjects;
 import java.text.SimpleDateFormat;
 import java.text.ParseException;
 import java.util.Date;
+import java.util.Optional;
 
 public class AlarmDTO implements ObjectDTOInterface{
     private String notificationIdentifier;
@@ -72,6 +73,9 @@ public class AlarmDTO implements ObjectDTOInterface{
             if(eventTime.isEmpty()){
                 throw new IllegalStateException("Event Time cannot be empty");
             }
+            if(moTTInfo.equals("")){
+                moTTInfo=null;
+            }
 
             AlarmDTO alarm = new AlarmDTO();
             alarm.notificationIdentifier = this.notificationIdentifier;
@@ -91,8 +95,8 @@ public class AlarmDTO implements ObjectDTOInterface{
             notificationIdentifier(alarm.getFirstAttribute());
             acknowledgeState(alarm.getSecondAttribute());
             acknowledgeUserID(alarm.getThirdAttribute());
-            moTTInfo(alarm.getFourthAttribute());
-            alertCount(alarm.getFifthAttribute().toString());
+            moTTInfo(alarm.getFourthAttribute().toString());
+            alertCount(alarm.getFifthAttribute());
             eventTime(alarm.getSixthAttribute().toString());
             return this;
         }
@@ -107,8 +111,8 @@ public class AlarmDTO implements ObjectDTOInterface{
     public String getThirdAttribute(){
         return this.acknowledgeUserID;
     }
-    public String getFourthAttribute(){
-        return this.moTTInfo;
+    public Optional<String> getFourthAttribute(){
+        return Optional.ofNullable(this.moTTInfo);
     }
     public String getFifthAttribute(){
         return this.alertCount.toString();
@@ -116,4 +120,5 @@ public class AlarmDTO implements ObjectDTOInterface{
     public String getSixthAttribute(){
         return this.eventTime;
     }
+
 }

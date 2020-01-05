@@ -1,8 +1,10 @@
 package basic;
 
 //import nieuzywane.CollectionOfAlarms;
+import dtoobjects.TypeOfObjects;
 import objectscollection.CollectionOfObjects;
 //import nieuzywane.ConcurrentCollectionOfAlarms;
+
 import swingdisplaying.DialogForCollection;
 import swingdisplaying.Window;
 
@@ -10,7 +12,6 @@ import javax.swing.*;
 import java.io.File;
 
 public class Runner{
-    private static  String typeOfData;
     public static final String csvPath="C:\\Dysk_D\\pliki_do_projektu\\alarmy_gotowe2.csv";
     public static final String xmlPath="C:\\Dysk_D\\pliki_do_projektu\\alarmy_gotowe2.xml";
     public static final String csvMOPath="C:\\Dysk_D\\pliki_do_projektu\\mo2.csv";
@@ -21,11 +22,13 @@ public class Runner{
   //  private static ConcurrentCollectionOfAlarms concurrentCollectionOfAlarms=new ConcurrentCollectionOfAlarms();
     private static File selectedFile;
     private static String selectedFormat;
+    private static  TypeOfObjects selectedTypeOfData;
 
     public Runner(){
         DialogForCollection dialog = new DialogForCollection();
         dialog.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         dialog.setVisible(true);
+
     }
 
 
@@ -47,7 +50,7 @@ public class Runner{
          }
      }
      selectedFormat=s;
-     typeOfData=type;
+     setSelectedTypeOfData(type);
      }
 
     public static File getSelectedFile(){
@@ -59,12 +62,16 @@ public class Runner{
     }
 
 
-    public static String getTypeOfData(){
-        return typeOfData;
+    public static TypeOfObjects getSelectedTypeOfData(){
+        return selectedTypeOfData;
     }
 
-    public static void setTypeOfData(String s){
-        typeOfData=s;
+    public static void setSelectedTypeOfData(String s){
+        switch (s){
+            case "Alarm": selectedTypeOfData =TypeOfObjects.ALARM; break;
+            case "Ticket": selectedTypeOfData =TypeOfObjects.MO; break;
+        }
+
     }
 
     public static CollectionOfObjects getCollection(){
@@ -75,6 +82,8 @@ public class Runner{
     public static Window getWindow(){
         return window;
     }
+
+
 
 
 

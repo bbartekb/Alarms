@@ -3,6 +3,7 @@ package dtoobjects;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
+import java.util.Optional;
 
 public class MoDTO implements ObjectDTOInterface {
     private String identifier;
@@ -69,6 +70,7 @@ public class MoDTO implements ObjectDTOInterface {
             if(xCreateDate.isEmpty()){
                 throw new IllegalStateException("XCreateDate cannot be empty");
             }
+
             MoDTO moDTO = new MoDTO();
             moDTO.identifier = this.identifier;
             moDTO.resource= this.resource;
@@ -87,7 +89,7 @@ public class MoDTO implements ObjectDTOInterface {
             identifier(moDTO.getFirstAttribute());
             resource(moDTO.getSecondAttribute());
             lifecycleState(moDTO.getThirdAttribute());
-            description(moDTO.getFourthAttribute());
+            description(moDTO.getFourthAttribute().toString());
             xCreateUser(moDTO.getFifthAttribute().toString());
             xCreateDate(moDTO.getSixthAttribute().toString());
             return this;
@@ -115,9 +117,13 @@ public class MoDTO implements ObjectDTOInterface {
         return this.lifecycleState;
     }
 
-    @Override
+   /* @Override
     public String getFourthAttribute() {
         return this.description;
+    }*/
+    @Override
+    public Optional<String> getFourthAttribute() {
+        return Optional.ofNullable(this.description);
     }
 
     @Override

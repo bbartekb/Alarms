@@ -2,6 +2,7 @@ package updateobject;
 import dtoobjects.AlarmDTO;
 import basic.Runner;
 import dtoobjects.MoDTO;
+import dtoobjects.TypeOfObjects;
 
 public class UpdateCollectionUpdateAlarm extends Thread {
 
@@ -14,7 +15,7 @@ public class UpdateCollectionUpdateAlarm extends Thread {
             }
             double losowa = Math.random()*13;
             int random= (int) losowa;
-            if(Runner.getTypeOfData().equals("Alarm")){
+            if(Runner.getSelectedTypeOfData().equals(TypeOfObjects.ALARM)){
                 AlarmDTO.Builder alarmDTO = new AlarmDTO.Builder().from((AlarmDTO) Runner.getCollection().getObject(random));
                 alarmDTO.moTTInfo("ticket: "+i);
                 Runner.getCollection().remove(random);

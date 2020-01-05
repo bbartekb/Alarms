@@ -3,6 +3,7 @@ package swingdisplaying;
 import basic.AlarmsChannel;
 import basic.MOsChannel;
 import basic.Runner;
+import dtoobjects.TypeOfObjects;
 import updateobject.ThreadPoolForAlarms;
 
 import javax.swing.*;
@@ -64,7 +65,8 @@ public class DialogForCollection extends JFrame implements ActionListener {
             Runner.getWindow().setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
             Runner.getWindow().setVisible(true);
 
-            if(Runner.getTypeOfData().equals("Alarm")) {
+            if(Runner.getSelectedTypeOfData().equals(TypeOfObjects.ALARM)) {
+
                 AlarmsChannel alarmsChannel = new AlarmsChannel();
                 try {
                     alarmsChannel.setAlarms();

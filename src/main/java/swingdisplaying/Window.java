@@ -114,7 +114,9 @@ public class Window extends JFrame implements ActionListener {
                 acknState[i].setText(listOfAlarms.get(i).getSecondAttribute());
                 acknUserId[i].setText(listOfAlarms.get(i).getThirdAttribute());
                 alertCount[i].setText(String.valueOf(listOfAlarms.get(i).getFifthAttribute()));
-                MOTTInfo[i].setText(listOfAlarms.get(i).getFourthAttribute());
+                MOTTInfo[i].setText(String.valueOf(listOfAlarms.get(i).getFourthAttribute().isPresent()));
+
+
                 eventTime[i].setText(String.valueOf(listOfAlarms.get(i).getSixthAttribute()));
              }
         }
@@ -146,7 +148,11 @@ public class Window extends JFrame implements ActionListener {
             acknState[i].setText(listOfAlarms.get(i).getSecondAttribute());
             acknUserId[i].setText(listOfAlarms.get(i).getThirdAttribute());
             alertCount[i].setText(String.valueOf(listOfAlarms.get(i).getFifthAttribute()));
-            MOTTInfo[i].setText(listOfAlarms.get(i).getFourthAttribute());
+          if(listOfAlarms.get(i).getFourthAttribute().isPresent()){
+            MOTTInfo[i].setText(listOfAlarms.get(i).getFourthAttribute().get());}
+            else{
+              MOTTInfo[i].setText("no data");
+              }
             eventTime[i].setText(String.valueOf(listOfAlarms.get(i).getSixthAttribute()));
         }
     }

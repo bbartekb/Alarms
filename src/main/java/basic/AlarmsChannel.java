@@ -38,6 +38,7 @@ public class AlarmsChannel {
         }
 
         Runner.getCollection().setCollectionA(listOfAlarms);
+
     }
 
 }

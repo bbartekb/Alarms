@@ -1,6 +1,7 @@
 package importfromfile;
 
 import basic.Runner;
+import dtoobjects.TypeOfObjects;
 
 import java.io.BufferedReader;
 import java.io.FileReader;
@@ -18,7 +19,7 @@ public class ReaderCSV {
         String row;
         while ((row = csvRead.readLine()) != null) {
             String[] data = row.split(";");
-            if(Runner.getTypeOfData().equals("Alarm")){
+            if(Runner.getSelectedTypeOfData().equals(TypeOfObjects.ALARM)){
                 for(int i=1; i<data.length;i++){
                     data[i]=data[i].substring(1,data[i].length()-1);
                 }
