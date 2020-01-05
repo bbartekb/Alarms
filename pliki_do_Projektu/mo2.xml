@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ExportData>
+  <DataRow>
+    <Record name="Identifier" value="ZIP PC방 (500023512)"/>
+    <Record name="Object Type" value="PHYSICAL_LOCATION"/>
+    <Record name="Lifecycle State" value="A"/>
+    <Record name="Description" value=""/>
+    <Record name="XCreateDate" value="2018-09-13 18:23:01"/>
+    <Record name="XCreateUser" value="netl"/>
+  </DataRow>
+  <DataRow>
+    <Record name="Identifier" value="ZIP PC클럽 (901172599)"/>
+    <Record name="Object Type" value="PHYSICAL_LOCATION"/>
+    <Record name="Lifecycle State" value="A"/>
+    <Record name="Description" value=""/>
+    <Record name="XCreateDate" value="2018-09-13 19:19:28"/>
+    <Record name="XCreateUser" value="netl"/>
+  </DataRow>
+  <DataRow>
+    <Record name="Identifier" value="ZIP-L1-0 2G CS"/>
+    <Record name="Object Type" value="DIR_SAP"/>
+    <Record name="Lifecycle State" value="A"/>
+    <Record name="Description" value="NGSA demo data"/>
+    <Record name="XCreateDate" value="2018-05-22 13:30:08"/>
+    <Record name="XCreateUser" value="SOA"/>
+  </DataRow>
+  <DataRow>
+    <Record name="Identifier" value="ZIP-L1-0 2G PS"/>
+    <Record name="Object Type" value="DIR_SAP"/>
+    <Record name="Lifecycle State" value="A"/>
+    <Record name="Description" value="NGSA demo data"/>
+    <Record name="XCreateDate" value="2018-05-22 13:30:08"/>
+    <Record name="XCreateUser" value="SOA"/>
+  </DataRow>
+  <DataRow>
+    <Record name="Identifier" value="ZIP-L1-0 3G CS"/>
+    <Record name="Object Type" value="DIR_SAP"/>
+    <Record name="Lifecycle State" value="A"/>
+    <Record name="Description" value="NGSA demo data"/>
+    <Record name="XCreateDate" value="2018-05-22 13:30:08"/>
+    <Record name="XCreateUser" value="SOA"/>
+  </DataRow>
+  <DataRow>
+    <Record name="Identifier" value="ZIP-L1-0 2G CS"/>
+    <Record name="Object Type" value="DIR_SAP"/>
+    <Record name="Lifecycle State" value="A"/>
+    <Record name="Description" value="NGSA demo data"/>
+    <Record name="XCreateDate" value="2018-05-22 13:30:08"/>
+    <Record name="XCreateUser" value="SOA"/>
+  </DataRow>
+  <DataRow>
+    <Record name="Identifier" value="ZIP-L1-0 2G PS"/>
+    <Record name="Object Type" value="DIR_SAP"/>
+    <Record name="Lifecycle State" value="A"/>
+    <Record name="Description" value="NGSA demo data"/>
+    <Record name="XCreateDate" value="2018-05-22 13:30:08"/>
+    <Record name="XCreateUser" value="SOA"/>
+  </DataRow>
+  <DataRow>
+    <Record name="Identifier" value="ZIP-L1-0 3G CS"/>
+    <Record name="Object Type" value="DIR_SAP"/>
+    <Record name="Lifecycle State" value="A"/>
+    <Record name="Description" value="NGSA demo data"/>
+    <Record name="XCreateDate" value="2018-05-22 13:30:08"/>
+    <Record name="XCreateUser" value="SOA"/>
+  </DataRow>
+  <DataRow>
+    <Record name="Identifier" value="ZIP-L1-0 2G CS"/>
+    <Record name="Object Type" value="DIR_SAP"/>
+    <Record name="Lifecycle State" value="A"/>
+    <Record name="Description" value="NGSA demo data"/>
+    <Record name="XCreateDate" value="2018-05-22 13:30:08"/>
+    <Record name="XCreateUser" value="SOA"/>
+  </DataRow>
+  <DataRow>
+    <Record name="Identifier" value="ZIP-L1-0 2G PS"/>
+    <Record name="Object Type" value="DIR_SAP"/>
+    <Record name="Lifecycle State" value="A"/>
+    <Record name="Description" value="NGSA demo data"/>
+    <Record name="XCreateDate" value="2018-05-22 13:30:08"/>
+    <Record name="XCreateUser" value="SOA"/>
+  </DataRow>
+  <DataRow>
+    <Record name="Identifier" value="ZIP-L1-0 3G CS"/>
+    <Record name="Object Type" value="DIR_SAP"/>
+    <Record name="Lifecycle State" value="A"/>
+    <Record name="Description" value="NGSA demo data"/>
+    <Record name="XCreateDate" value="2018-05-22 13:30:08"/>
+    <Record name="XCreateUser" value="SOA"/>
+  </DataRow>
+  <DataRow>
+    <Record name="Identifier" value="ZIP-L1-0 2G CS"/>
+    <Record name="Object Type" value="DIR_SAP"/>
+    <Record name="Lifecycle State" value="A"/>
+    <Record name="Description" value="NGSA demo data"/>
+    <Record name="XCreateDate" value="2018-05-22 13:30:08"/>
+    <Record name="XCreateUser" value="SOA"/>
+  </DataRow>
+  <DataRow>
+    <Record name="Identifier" value="ZIP-L1-0 2G PS"/>
+    <Record name="Object Type" value="DIR_SAP"/>
+    <Record name="Lifecycle State" value="A"/>
+    <Record name="Description" value="NGSA demo data"/>
+    <Record name="XCreateDate" value="2018-05-22 13:30:08"/>
+    <Record name="XCreateUser" value="SOA"/>
+  </DataRow>
+  <DataRow>
+    <Record name="Identifier" value="ZIP-L1-0 3G CS"/>
+    <Record name="Object Type" value="DIR_SAP"/>
+    <Record name="Lifecycle State" value="A"/>
+    <Record name="Description" value="NGSA demo data"/>
+    <Record name="XCreateDate" value="2018-05-22 13:30:08"/>
+    <Record name="XCreateUser" value="SOA"/>
+  </DataRow>
+  <DataRow>
+    <Record name="Identifier" value="ZIP-L1-0 2G CS"/>
+    <Record name="Object Type" value="DIR_SAP"/>
+    <Record name="Lifecycle State" value="A"/>
+    <Record name="Description" value="NGSA demo data"/>
+    <Record name="XCreateDate" value="2018-05-22 13:30:08"/>
+    <Record name="XCreateUser" value="SOA"/>
+  </DataRow>
+  <DataRow>
+    <Record name="Identifier" value="ZIP-L1-0 2G PS"/>
+    <Record name="Object Type" value="DIR_SAP"/>
+    <Record name="Lifecycle State" value="A"/>
+    <Record name="Description" value="NGSA demo data"/>
+    <Record name="XCreateDate" value="2018-05-22 13:30:08"/>
+    <Record name="XCreateUser" value="SOA"/>
+  </DataRow>
+  <DataRow>
+    <Record name="Identifier" value="ZIP-L1-0 3G CS"/>
+    <Record name="Object Type" value="DIR_SAP"/>
+    <Record name="Lifecycle State" value="A"/>
+    <Record name="Description" value="NGSA demo data"/>
+    <Record name="XCreateDate" value="2018-05-22 13:30:08"/>
+    <Record name="XCreateUser" value="SOA"/>
+  </DataRow>
+  <DataRow>
+    <Record name="Identifier" value="ZIP-L1-0 2G CS"/>
+    <Record name="Object Type" value="DIR_SAP"/>
+    <Record name="Lifecycle State" value="A"/>
+    <Record name="Description" value="NGSA demo data"/>
+    <Record name="XCreateDate" value="2018-05-22 13:30:08"/>
+    <Record name="XCreateUser" value="SOA"/>
+  </DataRow>
+  <DataRow>
+    <Record name="Identifier" value="ZIP-L1-0 2G PS"/>
+    <Record name="Object Type" value="DIR_SAP"/>
+    <Record name="Lifecycle State" value="A"/>
+    <Record name="Description" value="NGSA demo data"/>
+    <Record name="XCreateDate" value="2018-05-22 13:30:08"/>
+    <Record name="XCreateUser" value="SOA"/>
+  </DataRow>
+  <DataRow>
+    <Record name="Identifier" value="ZIP-L1-0 3G CS"/>
+    <Record name="Object Type" value="DIR_SAP"/>
+    <Record name="Lifecycle State" value="A"/>
+    <Record name="Description" value="NGSA demo data"/>
+    <Record name="XCreateDate" value="2018-05-22 13:30:08"/>
+    <Record name="XCreateUser" value="SOA"/>
+  </DataRow>
+  <DataRow>
+    <Record name="Identifier" value="ZIP-L1-0 2G CS"/>
+    <Record name="Object Type" value="DIR_SAP"/>
+    <Record name="Lifecycle State" value="A"/>
+    <Record name="Description" value="NGSA demo data"/>
+    <Record name="XCreateDate" value="2018-05-22 13:30:08"/>
+    <Record name="XCreateUser" value="SOA"/>
+  </DataRow>
+  <DataRow>
+    <Record name="Identifier" value="ZIP-L1-0 2G PS"/>
+    <Record name="Object Type" value="DIR_SAP"/>
+    <Record name="Lifecycle State" value="A"/>
+    <Record name="Description" value="NGSA demo data"/>
+    <Record name="XCreateDate" value="2018-05-22 13:30:08"/>
+    <Record name="XCreateUser" value="SOA"/>
+  </DataRow>
+  <DataRow>
+    <Record name="Identifier" value="ZIP-L1-0 3G CS"/>
+    <Record name="Object Type" value="DIR_SAP"/>
+    <Record name="Lifecycle State" value="A"/>
+    <Record name="Description" value="NGSA demo data"/>
+    <Record name="XCreateDate" value="2018-05-22 13:30:08"/>
+    <Record name="XCreateUser" value="SOA"/>
+  </DataRow>
+</ExportData>
